@@ -114,6 +114,20 @@
   .search-option input {
     width: 67%;
   }
+  .logo-image{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -40px;
+    margin-left: -50px;
+    margin-right: 3px;
+  }
+  #brandname
+  {
+    margin-left: 5px;
+    margin-top: 3px;
+  }
 }
 
 /* small mobile :320px. */
@@ -268,6 +282,20 @@
   }
   li.threaded-comments {
     margin-left: 0;
+  }
+  .logo-image{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -40px;
+    margin-left: -10px;
+    margin-right: 3px;
+  }
+  #brandname
+  {
+    margin-left: 40px;
+    margin-top: 3px;
   }
 }
 

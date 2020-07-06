@@ -57,8 +57,23 @@ html, body {
   letter-spacing: 5px;
 }
 span{
-  color:dodgerblue;
+  color:orangered;
   font-weight:bold
+}
+
+.logo-image{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -40px;
+  margin-left: -50px;
+  margin-right: 3px;
+}
+#brandname
+{
+  margin-left: 5px;
+  margin-top: 3px;
 }
 
 .floatleft {
@@ -147,7 +162,7 @@ a {
 }
 
 a:hover {
-  color: #3EC1D5;
+  color: orangered;
   text-decoration: none;
 }
 
@@ -169,7 +184,7 @@ body {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #3EC1D5;
+  background:orangered;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -186,13 +201,13 @@ body {
 }
 
 .back-to-top:focus {
-  background: #3EC1D5;
+  background: orangered;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #3cd6ed;
+  background: orangered;
   color: #fff;
 }
 
@@ -223,12 +238,12 @@ div#preloader {
 }
 
 ::-moz-selection {
-  background: #3EC1D5;
+  background: gainsboro;
   text-shadow: none;
 }
 
 ::selection {
-  background: #3EC1D5;
+  background: gainsboro;
   text-shadow: none;
 }
 
@@ -335,7 +350,7 @@ div#preloader {
 }
 
 .main-menu ul.navbar-nav li a:hover {
-  color: #3EC1D5;
+  color:orangered;
 }
 
 .navbar {
@@ -435,7 +450,7 @@ div#preloader {
 }
 
 .sticky-logo h1 span {
-  color: #3ec1d5;
+  color: orangered;
 }
 .stick .main-menu ul.navbar-nav li.active > a::after {
   border: 1px solid #fff;
@@ -511,9 +526,10 @@ div#preloader {
 }
 
 .single-well ul li i {
-  color: #3EC1D5;
+  color:orangered;
   padding-right: 10px;
   font-size: 12px;
+  opacity: 0.6;
 }
 
 .single-well p {
@@ -523,7 +539,8 @@ div#preloader {
 /*--------------------------------*/
 
 /* 4.Services Area
-/*--------------------------------*/
+/*--------------------------------
+
 
 .services-icon {
   color: #444;
@@ -567,7 +584,7 @@ div#preloader {
 
 /*----------------------------------------
   5.Skill Area
-----------------------------------------*/
+----------------------------------------
 
 .our-skill-area {
   position: relative;
@@ -591,7 +608,7 @@ div#preloader {
 
 /*----------------------------------------
   6.Faq Area
-----------------------------------------*/
+----------------------------------------
 
 .faq-details .panel-heading {
   padding: 0;
@@ -745,7 +762,7 @@ div#preloader {
 
 /*----------------------------------------
  7.Wellcome Area Css
-----------------------------------------*/
+----------------------------------------
 
 .wellcome-area {
   background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg");
@@ -822,7 +839,7 @@ div#preloader {
 
 /*----------------------------------------
  8.Team Area Css
-----------------------------------------*/
+----------------------------------------
 
 .team-member {
   background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
@@ -1021,7 +1038,7 @@ div#preloader {
 /*--------------------------------*/
 
 /*  9.review Area
-/*--------------------------------*/
+/*--------------------------------
 
 .reviews-area {
   background: url(../img/background/bg1.jpg);
@@ -1118,8 +1135,8 @@ div#preloader {
 }
 
 .project-menu li a.active, .project-menu li a:hover {
-  border-color: #3EC1D5;
-  background: #3EC1D5;
+  border-color: orangered;
+  background: orangered;
   color: #fff;
   text-decoration: none;
 }
@@ -1246,7 +1263,7 @@ div#preloader {
 /*----------------------------------------*/
 
 /* 11. Pricing Area
-/*----------------------------------------*/
+/*----------------------------------------
 
 .pricing-area {
   background: rgba(0, 0, 0, 0.02) none repeat scroll 0 0;
@@ -1369,7 +1386,7 @@ div#preloader {
 
 /*----------------------------------------
  12.Testimonial Area Css
-----------------------------------------*/
+----------------------------------------
 
 .testimonials-area {
   background: rgba(0, 0, 0, 0) url("../img/background/slider1.jpg") no-repeat fixed center top / cover;
@@ -1486,7 +1503,7 @@ div#preloader {
 /*--------------------------------*/
 
 /*  13.Blog Area
-/*--------------------------------*/
+/*--------------------------------
 
 .blog-area {
   height: auto;
@@ -1598,7 +1615,7 @@ div#preloader {
 
 /*------------------------------
   13. Quote area
---------------------------------*/
+--------------------------------
 
 .suscribe-area {
   background: #3EC1D5 none repeat scroll 0 0;
@@ -1643,7 +1660,7 @@ div#preloader {
 /*--------------------------------*/
 
 /*  14.Contact Area
-/*--------------------------------*/
+/*--------------------------------
 
 .contact-area {
   height: auto;
@@ -1791,7 +1808,7 @@ div#preloader {
 }
 
 .footer-logo h2 span {
-  color: #3ec1d5;
+  color: orangered;
 }
 
 .footer-icons ul li {
@@ -1836,8 +1853,8 @@ div#preloader {
 }
 
 .popular-tag ul li a:hover, .footer-icons ul li a:hover {
-  background: #3EC1D5;
-  border: 1px solid #3EC1D5;
+  background: orangered;
+  border: 1px solid orangered;
   color: #fff;
 }
 
@@ -1865,7 +1882,7 @@ div#preloader {
 
 .copyright-text a:hover {
   text-decoration: underline;
-  color: #3EC1D5;
+  color:orangered;
 }
 
 .copyright-text a {
@@ -1878,7 +1895,7 @@ div#preloader {
 }
 
 .copyright a, .credits a {
-  color: #3EC1D5;
+  color:orangered;
 }
 
 .credits {
@@ -1951,7 +1968,7 @@ div#preloader {
 
 /*----------------------------------------
   18. Blog page
-----------------------------------------*/
+----------------------------------------
 
 .page-area {
   position: relative;
@@ -1981,7 +1998,7 @@ div#preloader {
 }
 
 .search-option button:hover {
-  color: #3ec1d5;
+  color: orangered;
 }
 
 .left-blog h4 {
@@ -2041,8 +2058,8 @@ div#preloader {
 
 .ready-btn:hover {
   color: #fff;
-  background: #3EC1D5;
-  border: 1px solid #3EC1D5;
+  background: orangered;
+  border: 1px solid orangered;
   text-decoration: none;
 }
 
@@ -2060,7 +2077,7 @@ div#preloader {
 }
 
 .pst-content p a:hover, .left-blog ul li a:hover {
-  color: #3EC1D5;
+  color: orangered;
 }
 
 .blog-page .single-blog {
@@ -2112,7 +2129,7 @@ div#preloader {
 /*----------------------------------------*/
 
 /*  19.	Blog Details css
-/*----------------------------------------*/
+/*----------------------------------------
 
 .post-information h2 {
   color: #363636;
